@@ -6,7 +6,7 @@ void main(){
     printf("Password: ");
     char pass[64];
     scanf("%s", &pass);
-    if(strcmp(pass, "hardcodedPasswordLul1") == 0){
+    if(strcmp(pass, "hardcodedPasswordLul") == 0){
         printf("\nSuccess\n");
         exit(0);
     }else{
